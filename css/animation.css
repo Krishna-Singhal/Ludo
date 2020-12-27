@@ -1,0 +1,530 @@
+@keyframes a-yellow {
+    to {background-color: yellow;}
+}
+
+@keyframes a-red {
+    to {background-color: red;}
+}
+
+@keyframes a-blue {
+    to {background-color: blue;}
+}
+
+@keyframes a-green {
+    to {background-color: rgb(22, 228, 22);}
+}
+
+@keyframes a-w-yellow {
+    from {background-color: white;}
+    to {background-color: yellow;}
+}
+
+@keyframes a-w-red {
+    from {background-color: white;}
+    to {background-color: red;}
+}
+
+@keyframes a-w-blue {
+    from {background-color: white;}
+    to {background-color: blue;}
+}
+
+@keyframes a-w-green {
+    from {background-color: white;}
+    to {background-color: rgb(22, 228, 22);}
+}
+
+.a-g-1 {
+    animation:
+        a-w-green 0.3s linear 1s 1 normal,
+        a-red 0.3s linear 4.9s 1 normal,
+        a-blue 0.3s linear 8.8s 1 normal,
+        a-yellow 0.3s linear 12.7s 1 normal;
+
+}
+
+.a-g-2 {
+    animation:
+        a-green 0.3s linear 1.3s 1 normal,
+        a-red 0.3s linear 5.2s 1 normal,
+        a-blue 0.3s linear 9.1s 1 normal,
+        a-yellow 0.3s linear 13s 1 normal;
+}
+
+.a-g-3 {
+    animation:
+        a-green 0.3s linear 1.6s 1 normal,
+        a-red 0.3s linear 5.5s 1 normal,
+        a-blue 0.3s linear 9.4s 1 normal,
+        a-yellow 0.3s linear 13.3s 1 normal;
+}
+
+.a-g-4 {
+    animation:
+        a-green 0.3s linear 1.9s 1 normal,
+        a-red 0.3s linear 5.8s 1 normal,
+        a-blue 0.3s linear 9.7s 1 normal,
+        a-yellow 0.3s linear 13.6s 1 normal;
+}
+
+.a-g-5 {
+    animation:
+        a-green 0.3s linear 2.2s 1 normal,
+        a-red 0.3s linear 6.1s 1 normal,
+        a-blue 0.3s linear 10s 1 normal,
+        a-yellow 0.3s linear 13.9s 1 normal;
+}
+
+.a-g-6 {
+    animation:
+        a-green 0.3s linear 2.5s 1 normal,
+        a-red 0.3s linear 6.4s 1 normal,
+        a-blue 0.3s linear 10.3s 1 normal,
+        a-yellow 0.3s linear 14.2s 1 normal;
+}
+
+.a-g-7 {
+    animation:
+        a-green 0.3s linear 2.8s 1 normal,
+        a-red 0.3s linear 6.7s 1 normal,
+        a-blue 0.3s linear 10.6s 1 normal,
+        a-yellow 0.3s linear 14.5s 1 normal;
+}
+
+.a-g-8 {
+    animation:
+        a-green 0.3s linear 3.1s 1 normal,
+        a-red 0.3s linear 7s 1 normal,
+        a-blue 0.3s linear 10.9s 1 normal,
+        a-yellow 0.3s linear 14.8s 1 normal;
+
+}
+
+.a-g-9 {
+    animation:
+        a-w-green 0.3s linear 3.4s 1 normal,
+        a-red 0.3s linear 7.3s 1 normal,
+        a-blue 0.3s linear 11.2s 1 normal,
+        a-yellow 0.3s linear 15.1s 1 normal;
+}
+
+.a-g-10 {
+    animation:
+        a-green 0.3s linear 3.7s 1 normal,
+        a-red 0.3s linear 7.6s 1 normal,
+        a-blue 0.3s linear 11.5s 1 normal,
+        a-yellow 0.3s linear 15.4s 1 normal;
+}
+
+.a-g-11 {
+    animation:
+        a-green 0.3s linear 4s 1 normal,
+        a-red 0.3s linear 7.9s 1 normal,
+        a-blue 0.3s linear 11.8s 1 normal,
+        a-yellow 0.3s linear 15.7s 1 normal;
+}
+
+.a-g-12 {
+    animation:
+        a-green 0.3s linear 4.3s 1 normal,
+        a-red 0.3s linear 8.2s 1 normal,
+        a-blue 0.3s linear 12.1s 1 normal,
+        a-yellow 0.3s linear 16s 1 normal;
+}
+
+.a-g-13 {
+    animation:
+        a-green 0.3s linear 4.6s 1 normal,
+        a-red 0.3s linear 8.5s 1 normal,
+        a-blue 0.3s linear 12.4s 1 normal;
+}
+
+.a-g-14 {
+    animation: a-w-green 0.3s linear 16.3s 1 normal;
+}
+
+.a-g-15 {
+    animation: a-w-green 0.3s linear 16.6s 1 normal;
+}
+
+.a-g-16 {
+    animation: a-w-green 0.3s linear 16.9s 1 normal;
+}
+
+.a-g-17 {
+    animation: a-w-green 0.3s linear 17.2s 1 normal;
+}
+
+.a-g-18 {
+    animation: a-w-green 0.3s linear 17.5s 1 normal;
+}
+
+.a-y-1 {
+    animation:
+        a-w-yellow 0.3s linear 1s 1 normal,
+        a-green 0.3s linear 4.9s 1 normal,
+        a-red 0.3s linear 8.8s 1 normal,
+        a-blue 0.3s linear 12.7s 1 normal;
+
+}
+
+.a-y-2 {
+    animation:
+        a-yellow 0.3s linear 1.3s 1 normal,
+        a-green 0.3s linear 5.2s 1 normal,
+        a-red 0.3s linear 9.1s 1 normal,
+        a-blue 0.3s linear 13s 1 normal;
+}
+
+.a-y-3 {
+    animation:
+        a-yellow 0.3s linear 1.6s 1 normal,
+        a-green 0.3s linear 5.5s 1 normal,
+        a-red 0.3s linear 9.4s 1 normal,
+        a-blue 0.3s linear 13.3s 1 normal;
+}
+
+.a-y-4 {
+    animation:
+        a-yellow 0.3s linear 1.9s 1 normal,
+        a-green 0.3s linear 5.8s 1 normal,
+        a-red 0.3s linear 9.7s 1 normal,
+        a-blue 0.3s linear 13.6s 1 normal;
+}
+
+.a-y-5 {
+    animation:
+        a-yellow 0.3s linear 2.2s 1 normal,
+        a-green 0.3s linear 6.1s 1 normal,
+        a-red 0.3s linear 10s 1 normal,
+        a-blue 0.3s linear 13.9s 1 normal;
+}
+
+.a-y-6 {
+    animation:
+        a-yellow 0.3s linear 2.5s 1 normal,
+        a-green 0.3s linear 6.4s 1 normal,
+        a-red 0.3s linear 10.3s 1 normal,
+        a-blue 0.3s linear 14.2s 1 normal;
+}
+
+.a-y-7 {
+    animation:
+        a-yellow 0.3s linear 2.8s 1 normal,
+        a-green 0.3s linear 6.7s 1 normal,
+        a-red 0.3s linear 10.6s 1 normal,
+        a-blue 0.3s linear 14.5s 1 normal;
+}
+
+.a-y-8 {
+    animation:
+        a-yellow 0.3s linear 3.1s 1 normal,
+        a-green 0.3s linear 7s 1 normal,
+        a-red 0.3s linear 10.9s 1 normal,
+        a-blue 0.3s linear 14.8s 1 normal;
+}
+
+.a-y-9 {
+    animation:
+        a-w-yellow 0.3s linear 3.4s 1 normal,
+        a-green 0.3s linear 7.3s 1 normal,
+        a-red 0.3s linear 11.2s 1 normal,
+        a-blue 0.3s linear 15.1s 1 normal;
+}
+
+.a-y-10 {
+    animation:
+        a-yellow 0.3s linear 3.7s 1 normal,
+        a-green 0.3s linear 7.6s 1 normal,
+        a-red 0.3s linear 11.5s 1 normal,
+        a-blue 0.3s linear 15.4s 1 normal;
+}
+
+.a-y-11 {
+    animation:
+        a-yellow 0.3s linear 4s 1 normal,
+        a-green 0.3s linear 7.9s 1 normal,
+        a-red 0.3s linear 11.8s 1 normal,
+        a-blue 0.3s linear 15.7s 1 normal;
+}
+
+.a-y-12 {
+    animation:
+        a-yellow 0.3s linear 4.3s 1 normal,
+        a-green 0.3s linear 8.2s 1 normal,
+        a-red 0.3s linear 12.1s 1 normal,
+        a-blue 0.3s linear 16s 1 normal;
+}
+
+.a-y-13 {
+    animation:
+        a-yellow 0.3s linear 4.6s 1 normal,
+        a-green 0.3s linear 8.5s 1 normal,
+        a-red 0.3s linear 12.4s 1 normal;
+}
+
+.a-y-14 {
+    animation: a-w-yellow 0.3s linear 16.3s 1 normal;
+}
+
+.a-y-15 {
+    animation: a-w-yellow 0.3s linear 16.6s 1 normal;
+}
+
+.a-y-16 {
+    animation: a-w-yellow 0.3s linear 16.9s 1 normal;
+}
+
+.a-y-17 {
+    animation: a-w-yellow 0.3s linear 17.2s 1 normal;
+}
+
+.a-y-18 {
+    animation: a-w-yellow 0.3s linear 17.5s 1 normal;
+}
+
+.a-b-1 {
+    animation:
+        a-w-blue 0.3s linear 1s 1 normal,
+        a-yellow 0.3s linear 4.9s 1 normal,
+        a-green 0.3s linear 8.8s 1 normal,
+        a-red 0.3s linear 12.7s 1 normal;
+}
+
+.a-b-2 {
+    animation:
+        a-blue 0.3s linear 1.3s 1 normal,
+        a-yellow 0.3s linear 5.2s 1 normal,
+        a-green 0.3s linear 9.1s 1 normal,
+        a-red 0.3s linear 13s 1 normal;
+}
+
+.a-b-3 {
+    animation:
+        a-blue 0.3s linear 1.6s 1 normal,
+        a-yellow 0.3s linear 5.5s 1 normal,
+        a-green 0.3s linear 9.4s 1 normal,
+        a-red 0.3s linear 13.3s 1 normal;
+}
+
+.a-b-4 {
+    animation:
+        a-blue 0.3s linear 1.9s 1 normal,
+        a-yellow 0.3s linear 5.8s 1 normal,
+        a-green 0.3s linear 9.7s 1 normal,
+        a-red 0.3s linear 13.6s 1 normal;
+}
+
+.a-b-5 {
+    animation:
+        a-blue 0.3s linear 2.2s 1 normal,
+        a-yellow 0.3s linear 6.1s 1 normal,
+        a-green 0.3s linear 10s 1 normal,
+        a-red 0.3s linear 13.9s 1 normal;
+}
+
+.a-b-6 {
+    animation:
+        a-blue 0.3s linear 2.5s 1 normal,
+        a-yellow 0.3s linear 6.4s 1 normal,
+        a-green 0.3s linear 10.3s 1 normal,
+        a-red 0.3s linear 14.2s 1 normal;
+}
+
+.a-b-7 {
+    animation:
+        a-blue 0.3s linear 2.8s 1 normal,
+        a-yellow 0.3s linear 6.7s 1 normal,
+        a-green 0.3s linear 10.6s 1 normal,
+        a-red 0.3s linear 14.5s 1 normal;
+}
+
+.a-b-8 {
+    animation:
+        a-blue 0.3s linear 3.1s 1 normal,
+        a-yellow 0.3s linear 7s 1 normal,
+        a-green 0.3s linear 10.9s 1 normal,
+        a-red 0.3s linear 14.8s 1 normal;
+}
+
+.a-b-9 {
+    animation:
+        a-w-blue 0.3s linear 3.4s 1 normal,
+        a-yellow 0.3s linear 7.3s 1 normal,
+        a-green 0.3s linear 11.2s 1 normal,
+        a-red 0.3s linear 15.1s 1 normal;
+}
+
+.a-b-10 {
+    animation:
+        a-blue 0.3s linear 3.7s 1 normal,
+        a-yellow 0.3s linear 7.6s 1 normal,
+        a-green 0.3s linear 11.5s 1 normal,
+        a-red 0.3s linear 15.4s 1 normal;
+}
+
+.a-b-11 {
+    animation:
+        a-blue 0.3s linear 4s 1 normal,
+        a-yellow 0.3s linear 7.9s 1 normal,
+        a-green 0.3s linear 11.8s 1 normal,
+        a-red 0.3s linear 15.7s 1 normal;
+}
+
+.a-b-12 {
+    animation:
+        a-blue 0.3s linear 4.3s 1 normal,
+        a-yellow 0.3s linear 8.2s 1 normal,
+        a-green 0.3s linear 12.1s 1 normal,
+        a-red 0.3s linear 16s 1 normal;
+}
+
+.a-b-13 {
+    animation:
+        a-blue 0.3s linear 4.6s 1 normal,
+        a-yellow 0.3s linear 8.5s 1 normal,
+        a-green 0.3s linear 12.4s 1 normal;
+}
+
+.a-b-14 {
+    animation: a-w-blue 0.3s linear 16.3s 1 normal;
+}
+
+.a-b-15 {
+    animation: a-w-blue 0.3s linear 16.6s 1 normal;
+}
+
+.a-b-16 {
+    animation: a-w-blue 0.3s linear 16.9s 1 normal;
+}
+
+.a-b-17 {
+    animation: a-w-blue 0.3s linear 17.2s 1 normal;
+}
+
+.a-b-18 {
+    animation: a-w-blue 0.3s linear 17.5s 1 normal;
+}
+
+.a-r-1 {
+    animation:
+        a-w-red 0.3s linear 1s 1 normal,
+        a-blue 0.3s linear 4.9s 1 normal,
+        a-yellow 0.3s linear 8.8s 1 normal,
+        a-green 0.3s linear 12.7s 1 normal;
+}
+
+.a-r-2 {
+    animation:
+        a-red 0.3s linear 1.3s 1 normal,
+        a-blue 0.3s linear 5.2s 1 normal,
+        a-yellow 0.3s linear 9.1s 1 normal,
+        a-green 0.3s linear 13s 1 normal;
+}
+
+.a-r-3 {
+    animation:
+        a-red 0.3s linear 1.6s 1 normal,
+        a-blue 0.3s linear 5.5s 1 normal,
+        a-yellow 0.3s linear 9.4s 1 normal,
+        a-green 0.3s linear 13.3s 1 normal;
+}
+
+.a-r-4 {
+    animation:
+        a-red 0.3s linear 1.9s 1 normal,
+        a-blue 0.3s linear 5.8s 1 normal,
+        a-yellow 0.3s linear 9.7s 1 normal,
+        a-green 0.3s linear 13.6s 1 normal;
+}
+
+.a-r-5 {
+    animation:
+        a-red 0.3s linear 2.2s 1 normal,
+        a-blue 0.3s linear 6.1s 1 normal,
+        a-yellow 0.3s linear 10s 1 normal,
+        a-green 0.3s linear 13.9s 1 normal;
+}
+
+.a-r-6 {
+    animation:
+        a-red 0.3s linear 2.5s 1 normal,
+        a-blue 0.3s linear 6.4s 1 normal,
+        a-yellow 0.3s linear 10.3s 1 normal,
+        a-green 0.3s linear 14.2s 1 normal;
+}
+
+.a-r-7 {
+    animation:
+        a-red 0.3s linear 2.8s 1 normal,
+        a-blue 0.3s linear 6.7s 1 normal,
+        a-yellow 0.3s linear 10.6s 1 normal,
+        a-green 0.3s linear 14.5s 1 normal;
+}
+
+.a-r-8 {
+    animation:
+        a-red 0.3s linear 3.1s 1 normal,
+        a-blue 0.3s linear 7s 1 normal,
+        a-yellow 0.3s linear 10.9s 1 normal,
+        a-green 0.3s linear 14.8s 1 normal;
+}
+
+.a-r-9 {
+    animation:
+        a-w-red 0.3s linear 3.4s 1 normal,
+        a-blue 0.3s linear 7.3s 1 normal,
+        a-yellow 0.3s linear 11.2s 1 normal,
+        a-green 0.3s linear 15.1s 1 normal;
+}
+
+.a-r-10 {
+    animation:
+        a-red 0.3s linear 3.7s 1 normal,
+        a-blue 0.3s linear 7.6s 1 normal,
+        a-yellow 0.3s linear 11.5s 1 normal,
+        a-green 0.3s linear 15.4s 1 normal;
+}
+
+.a-r-11 {
+    animation:
+        a-red 0.3s linear 4s 1 normal,
+        a-blue 0.3s linear 7.9s 1 normal,
+        a-yellow 0.3s linear 11.8s 1 normal,
+        a-green 0.3s linear 15.7s 1 normal;
+}
+
+.a-r-12 {
+    animation:
+        a-red 0.3s linear 4.3s 1 normal,
+        a-blue 0.3s linear 8.2s 1 normal,
+        a-yellow 0.3s linear 12.1s 1 normal,
+        a-green 0.3s linear 16s 1 normal;
+}
+
+.a-r-13 {
+    animation:
+        a-red 0.3s linear 4.6s 1 normal,
+        a-blue 0.3s linear 8.5s 1 normal,
+        a-yellow 0.3s linear 12.4s 1 normal;
+}
+
+.a-r-14 {
+    animation: a-w-red 0.3s linear 16.3s 1 normal;
+}
+
+.a-r-15 {
+    animation: a-w-red 0.3s linear 16.6s 1 normal;
+}
+
+.a-r-16 {
+    animation: a-w-red 0.3s linear 16.9s 1 normal;
+}
+
+.a-r-17 {
+    animation: a-w-red 0.3s linear 17.2s 1 normal;
+}
+
+.a-r-18 {
+    animation: a-w-red 0.3s linear 17.5s 1 normal;
+}
