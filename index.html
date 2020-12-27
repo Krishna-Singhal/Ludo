@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ludo</title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/ludoclass.css">
+<link rel="stylesheet" type="text/css" href="css/animation.css">
+<body>
+    <div class="mainDiv">
+        <div class="topDiv">
+            <div class="top1">
+                <div class="Box">
+                    <div class="square margin-1" style="background-color: red;"></div>
+                    <div class="square margin-2" style="background-color: red;"></div>
+                    <div class="square margin-3" style="background-color: red;"></div>
+                    <div class="square margin-4" style="background-color: red;"></div>
+                </div>
+            </div>
+            <div class="top2">
+                <table width="100%" height="100%" border="1" collspacing="0" bgcolor="white ">
+                    <tr>
+                        <td class="a-r-11"></td>
+                        <td class="a-r-12"></td>
+                        <td class="a-r-13"></td>
+                    </tr>
+                    <tr>
+                        <td class="a-r-10"></td>
+                        <td class="a-g-14" style="background-color: rgb(22, 228, 22);"></td>
+                        <td class="safe a-g-1" style="background-color: rgb(22, 228, 22);"></td>
+                    </tr>
+                    <tr>
+                        <td class="safe a-r-9" style="background-color: red;"></td>
+                        <td class="a-g-15" style="background-color: rgb(22, 228, 22);"></td>
+                        <td class="a-g-2"></td>
+                    </tr>
+                    <tr>
+                        <td class="a-r-8"></td>
+                        <td class="a-g-16" style="background-color: rgb(22, 228, 22);"></td>
+                        <td class="a-g-3"></td>
+                    </tr>
+                    <tr>
+                        <td class="a-r-7"></td>
+                        <td class="a-g-17" style="background-color: rgb(22, 228, 22);"></td>
+                        <td class="a-g-4"></td>
+                    </tr>
+                    <tr>
+                        <td class="a-r-6"></td>
+                        <td class="a-g-18" style="background-color: rgb(22, 228, 22);"></td>
+                        <td class="a-g-5"></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="top3">
+                <div class="Box">
+                    <div class="square margin-1" style="background-color: rgb(22, 228, 22);"></div>
+                    <div class="square margin-2" style="background-color: rgb(22, 228, 22);"></div>
+                    <div class="square margin-3" style="background-color: rgb(22, 228, 22);"></div>
+                    <div class="square margin-4" style="background-color: rgb(22, 228, 22);"></div>
+                </div>
+            </div>
+        </div>
+        <div class="centerDiv">
+            <div class="center1">
+                <table width="100%" height="100%" border="1" collspacing="0" bgcolor="white">
+                    <tr>
+                        <td class="a-b-13"></td>
+                        <td class="safe a-r-1" style="background-color: red;"></td>
+                        <td class="a-r-2"></td>
+                        <td class="a-r-3"></td>
+                        <td class="a-r-4"></td>
+                        <td class="a-r-5"></td>
+                    </tr>
+                    <tr>
+                        <td class="a-b-12"></td>
+                        <td class="a-r-14" style="background-color: red;"></td>
+                        <td class="a-r-15" style="background-color: red;"></td>
+                        <td class="a-r-16" style="background-color: red;"></td>
+                        <td class="a-r-17" style="background-color: red;"></td>
+                        <td class="a-r-18" style="background-color: red;"></td>
+                    </tr>
+                    <tr>
+                        <td class="a-b-11"></td>
+                        <td class="a-b-10"></td>
+                        <td class="safe a-b-9" style="background-color: blue;"></td>
+                        <td class="a-b-8"></td>
+                        <td class="a-b-7"></td>
+                        <td class="a-b-6"></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="center2">
+                <div class="winner">
+                    <img src="https://i.postimg.cc/VL21d58n/ludo-king-image.png" width="200px" height="170px" style="margin-bottom: 20px;">
+                </div>
+            </div>
+            <div class="center3">
+                <table width="100%" height="100%" border="1" collspacing="0" bgcolor="white">
+                    <tr>
+                        <td class="a-g-6"></td>
+                        <td class="a-g-7"></td>
+                        <td class="a-g-8"></td>
+                        <td class="safe a-g-9" style="background-color: rgb(22, 228, 22);"></td>
+                        <td class="a-g-10"></td>
+                        <td class="a-g-11"></td>
+                    </tr>
+                    <tr>
+                        <td class="a-y-18" style="background-color: yellow;"></td>
+                        <td class="a-y-17" style="background-color: yellow;"></td>
+                        <td class="a-y-16" style="background-color: yellow;"></td>
+                        <td class="a-y-15" style="background-color: yellow;"></td>
+                        <td class="a-y-14" style="background-color: yellow;"></td>
+                        <td class="a-g-12"></td>
+                    </tr>
+                    <tr>
+                        <td class="a-y-5"></td>
+                        <td class="a-y-4"></td>
+                        <td class="a-y-3"></td>
+                        <td class="a-y-2"></td>
+                        <td class="safe a-y-1" style="background-color: yellow;"></td>
+                        <td class="a-g-13"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="bottomDiv">
+            <div class="bottom1">
+                <div class="Box">
+                    <div class="square margin-1" style="background-color: blue;"></div>
+                    <div class="square margin-2" style="background-color: blue;"></div>
+                    <div class="square margin-3" style="background-color: blue;"></div>
+                    <div class="square margin-4" style="background-color: blue;"></div>
+                </div>
+            </div>
+            <div class="bottom2">
+                <table width="100%" height="100%" border="1" collspacing="0" bgcolor="white">
+                    <tr>
+                        <td class="a-b-5"></td>
+                        <td class="a-b-18" style="background-color: blue;"></td>
+                        <td class="a-y-6"></td>
+                    </tr>
+                    <tr>
+                        <td class="a-b-4"></td>
+                        <td class="a-b-17" style="background-color: blue;"></td>
+                        <td class="a-y-7"></td>
+                    </tr>
+                    <tr>
+                        <td class="a-b-3"></td>
+                        <td class="a-b-16" style="background-color: blue;"></td>
+                        <td class="a-y-8"></td>
+                    </tr>
+                    <tr>
+                        <td class="a-b-2"></td>
+                        <td class="a-b-15" style="background-color: blue;"></td>
+                        <td class="safe a-y-9" style="background-color: yellow;"></td>
+                    </tr>
+                    <tr>
+                        <td class="safe a-b-1" style="background-color: blue;"></td>
+                        <td class="a-b-14" style="background-color: blue;"></td>
+                        <td class="a-y-10"></td>
+                    </tr>
+                    <tr>
+                        <td class="a-y-13"></td>
+                        <td class="a-y-12"></td>
+                        <td class="a-y-11"></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="bottom3">
+                <div class="Box">
+                    <div class="square margin-1" style="background-color: yellow;"></div>
+                    <div class="square margin-2" style="background-color: yellow;"></div>
+                    <div class="square margin-3" style="background-color: yellow;"></div>
+                    <div class="square margin-4" style="background-color: yellow;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
